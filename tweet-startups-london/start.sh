@@ -1,0 +1,1 @@
+DEBUG=tweet-startups-london:* npm start
