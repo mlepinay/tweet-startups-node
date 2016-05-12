@@ -1,0 +1,7 @@
+extends layout
+
+block content
+  h1 Scraper #{status}
+  p The tweet scraper succesfully #{verb}
+
+  a(href='/scraper/#{reverseAction}') #{reverseAction} the scraper
